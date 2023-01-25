@@ -30,11 +30,11 @@ function initTabNav(){
 
 
 //aula310
-function initAccordeon{
+function initAccordeon(){
     const accordionList=document.querySelectorAll( '.js-accordion dt');
     //console.log(accordionList)
     const activeClass='ativo'
-    
+
     if(accordionList.length){
         accordionList[0].classList.add(activeClass)//primeiro item ja ir carregado
         accordionList[0].nextElementSibling.classList.add(activeClass)//primeiro item ja ir carregado
@@ -45,7 +45,7 @@ function initAccordeon{
         // console.log(event.currentTarget);//colocar event no parametro da funcao
         // console.log(this)//funciona igual o de cima
 
-        this.classList.toglle(activeClass);
+        this.classList.toggle(activeClass);
         this.nextElementSibling.classList.toggle(activeClass);
     }
 
