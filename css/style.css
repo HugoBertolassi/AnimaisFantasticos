@@ -1,3 +1,8 @@
+
+html.textoMaior{
+    font-size: 150%;
+}
+
 body, h1, h2, li, p, dd, dt, dl{
     margin: 0px;
     padding:0px;
@@ -35,7 +40,7 @@ body{
 
 .menu li a{
    display: block;
-   padding:10px;
+   padding:16px 11px;
    margin: right 10px;
    color:#222;
    text-decoration: none;
